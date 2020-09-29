@@ -33,6 +33,8 @@ urlpatterns = [
     path("api/v1/", include("healthcare.api.v1.urls")),
     path("healthcare/", include("healthcare.urls")),
     path("home/", include("home.urls")),
+    path("api/v1/", include("dating.api.v1.urls")),
+    path("dating/", include("dating.urls")),
 ]
 
 admin.site.site_header = "Marshall Check"
